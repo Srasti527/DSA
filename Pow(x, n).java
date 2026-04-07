@@ -21,6 +21,15 @@ https://leetcode.com/problems/powx-n/
 
 ========================================
 5. 💻 Code:
+
+class Solution {
+    public double myPow(double x, int n) {
+         return Math.pow(x, n);
+    }
+}
+
+//EASIEST- USING BUILT IN FUNCTION (TIME COMPLEXITY:- O(log n))
+
 */
 
 // class Solution {
@@ -94,7 +103,7 @@ O(1)
    - Time: O(n), Space: O(1)
 
 ========================================
-========================================
+
 9. 📘 Learnings:
 
 - Using long prevents overflow for edge case n = Integer.MIN_VALUE
